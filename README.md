@@ -24,27 +24,6 @@ The application is structured using industry-standard modular design, separating
 
 ---
 
-## Project Structure
-
-earnings-trading-bot/
-├── src/
-│   ├── main.py            # Application entry point
-│   ├── config.py          # Configuration and constants
-│   ├── data_fetcher.py    # Market & earnings data
-│   ├── stats.py           # Historical earnings statistics
-│   ├── strategy.py        # Trade signal generation
-│   ├── broker.py          # Broker API integration
-│   └── execution.py       # Trade execution logic
-├── data/
-│   └── earnings_based_trades.csv
-├── tests/
-│   └── test_strategy.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
----
-
 ## How It Works
 
 1. Fetches historical stock prices and earnings dates
